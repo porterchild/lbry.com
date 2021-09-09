@@ -39,7 +39,7 @@ First, make sure the application is completely closed - right-click on applicati
         
   **`rd /S /Q %localappdata%\lbry\lbrynet\blobfiles`** [press Enter].
         
-- this will create symblolic link with our desired folder:
+- this will create symbolic link with our desired folder:
         
   **`mklink /J %localappdata%\lbry\lbrynet\blobfiles D:\LBRYCache`** [press Enter]
 
@@ -85,7 +85,7 @@ If you respected all the above instructions you'll see a success message, otherw
 3. In the Terminal window enter the below commands:
  
    >**Notes**:
-   >- replace **`Volume_Name`** with your mounted volume name and **`LBRY_Cache`** with the your desired folder name in our example below.
+   >- replace **`Volume_Name`** with your mounted volume name and **`LBRY_Cache`** with your desired folder name in our example below.
    > 
    >- if your destination folder contains spaces or other special characters, you’ll need to enclose it in quotation marks, like **`/volumes/Volume_Name/"LBRY Cache"`** when enter the commands.
  
